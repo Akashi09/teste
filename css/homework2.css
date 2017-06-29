@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+/*RESETA MARGINS DO NAVEGADOR*/
+body{margin:0; padding: 0;
+		background-image: url(../img/bg3.jpg);
+		background-size: 100%;
+		background-position: center;
+		width: 100%;
+		height: 800px;
+
+}
+header{
+	width: 100%;
+	height: 87px;
+	/*background: rgba(205, 205, 205, 0.5);*/
+	position: relative;
+	top: 10px;
+
+}	
+.banner{
+	width: 100%;
+	height: 900px;
+}
+/*Formatando logo central*/
+h3{
+	font-size: 200px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Permanent Marker', cursive;
+
+}
+h3:hover{
+	border-radius: 20%;
+	transition-duration: 1s;
+	cursor: pointer;
+	filter: opacity(53%);
+}
+p{
+	color: #fff;
+	font-size: 20px;
+	-webkit-column-count:2;
+	-webkit-column-rule-style: solid;
+	padding-left: 10%:;
+	padding-top: 5%; 
+}
+article{
+	width: 100%;
+	height: 410px;
+	background: rgba(255, 255, 255, 0.2);
+	margin-bottom: 20px;
+	color: #fff;
+}
+#imagem{
+	height: 200px;
+	width: 250px;
+	margin-left: 40%; 
+}
+img{
+	width: 300px;
+	height: 300px;
+	border: 2px solid #fff;
+	margin-top: 3%;	
+	/*border-radius: 5px;*/
+}
+img:hover{
+	border-radius: 20%;
+	transition-duration: 1s;
+	cursor: pointer;
+	filter: opacity(83%);
+}
+img:first-child{
+	margin-left: 5%;
+}
+img:nth-last-child(4){
+	margin-left: 2%;
+}
+/*-------------------------------------*/
+.personagens{
+	width: 100%;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.2);
+}
+footer{
+	width: 100%;
+	height: 90px;
+	margin-top: 95%;
+}
+em{
+	font-size: 24px;
+	color: #000000;
+	padding-left: 30%;
+	color: #fff;
+}
+.texto{
+
+	background:url(../img/bg2.jpg) center center fixed;
+	background-size: cover;
+}
+
+
+/*FORMATANDO O MENU*/
+
+.hvr-pulse{
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+li{
+	display: inline;
+	font-family: 'Dosis', sans-serif; 
+	font-size: 35px;
+	margin-left: 50px;
+	padding-top: 130px;
+	position: relative;
+	left: 23%;
+	color: #fff;
+}
+li:hover{
+	border-radius: 20%;
+	transition-duration: 1s;
+	cursor: pointer;
+	filter: opacity(53%);
+	color: #fff;
+}
+a{text-decoration: none; color: #fff;}
+a:hover{color: #999999}
+
+h4{
+	margin:0px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+}
+.ps{
+	width: 500px;
+	height: 250px;
+	margin-left: 260px;
+	box-shadow: 10px 10px 10px #000000;;
+}
+.ps2{
+	width: 500px;
+	height: 250px;
+	margin-left: 140px;
+	box-shadow: 10px 10px 10px #000000;
+}
+h5{
+	float: left;
+	padding-left: 250px;
+	color: #fff;
+}
+video{
+	width: auto;
+	height: auto;
+	position: relative;
+	bottom: 50px;
+	margin-left: 25%;
+	box-shadow: 10px 10px 10px #000000;
+	opacity: 0.9
+}
+.social{
+	width: 40px;
+	height: 40px;
+	border: none;
+	margin-left: none;
+	z-index: -1000;
+	margin-top: 44%;
+}
+.social:hover{
+	border-radius: 20%;
+	transition-duration: 1s;
+	cursor: pointer;
+	filter: opacity(53%);	
+}
+
+#personagens{margin-top: 400px;}
